@@ -22,9 +22,9 @@ elif number_workes <= 5:
 
     for i in range(0, number_workes):
 
-        name = input("Entry you name: ")
-        country = input("Entry you country: ")
-        work = input("Entry you work: ")
+        name = input("Entry name: ")
+        country = input("Entry country: ")
+        work = input("Entry work: ")
     
         print("----------OK----------")
         people = People(name, country, work)
